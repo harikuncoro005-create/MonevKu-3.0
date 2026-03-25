@@ -1,0 +1,35 @@
+input.custom-file-input:focus, input.custom-file-input:active {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+.custom-file:focus, .custom-file-input:active {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+.custom-file-input:focus~.custom-file-label {
+    border-color: #4588ee;
+    box-shadow: none;
+}
+
+.custom-file-input.is-invalid:focus~.custom-file-label {
+    box-shadow: none;
+}
+
+.custom-file-label::after {
+
+}
+
+.input-group > .custom-file:not(:last-child) .custom-file-label, .input-group > .custom-file:not(:last-child) .custom-file-label::after {
+    border-top-right-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem;
+}
+
+.custom-file-input:lang(en) ~ .custom-file-label::after {
+    content: "\f07c";
+    font-family: 'Font Awesome\ 5 Free';
+    font-weight: 600;
+    background-color: #4588ee;
+    color: #fff
+}

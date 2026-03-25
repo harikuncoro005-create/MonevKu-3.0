@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- ===============================================-->
+    <!--    Document Title-->
+    <!-- ===============================================-->
+    <title>Paguyuban Perum BPS</title>
+
+
+    <!-- ===============================================-->
+    <!--    Favicons-->
+    <!-- ===============================================-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico">
+    <link rel="manifest" href="assets/img/favicons/manifest.json">
+    <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <!-- ===============================================-->
+    <!--    Stylesheets-->
+    <!-- ===============================================-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link href="vendors/prism/prism.css" rel="stylesheet">
+    <!-- <link href="vendors/swiper/swiper-bundle.min.css" rel="stylesheet"> -->
+    <link href="assets/css/theme.css" rel="stylesheet" />
+    <!-- <link href="assets/css/user.css" rel="stylesheet" /> -->
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/> -->
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <style>
+      .swiper {
+          width: 100%;
+          height: 100%;
+      }
+
+      .swiper-slide {
+          width: 50%;
+      }
+
+      .img-slide {
+            aspect-ratio: 4 / 5;
+          }
+
+      @media only screen and (max-width: 1024px) {
+          .swiper-slide {
+              width: 100%;
+          }
+
+      }
+
+      /*.swiper-button-next {
+          color:#1e293b; 
+          height: 100%; 
+          top:1.4rem; 
+          right:0; 
+          padding:0 2rem 0 2rem
+      }*/
+
+      .swiper-button-next:hover {
+          background-color:white;
+          opacity: 0.5;
+      }
+
+      /*.swiper-button-prev {
+          color:#1e293b; 
+          height: 100%; 
+          top:1.4rem; 
+          left:0; 
+          padding:0 2rem 0 2rem
+      }*/
+
+      .swiper-button-prev:hover {
+          background-color:white;
+          opacity: 0.5;
+      }
+
+      @media only screen and (max-width: 640px) {
+          .swiper-button-next, .swiper-button-prev {
+              display: none;
+          }
+          .img-slide {
+            aspect-ratio: 16 / 9;
+          }
+      }
+  </style>
+
+  </head>
+
+
+  <body>
+
+    <!-- ===============================================-->
+    <!--    Main Content-->
+    <!-- ===============================================-->
+    <main class="main" id="top">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark" data-navbar-on-scroll="data-navbar-on-scroll">
+        <div class="container"><a class="navbar-brand" href="index.html"><img src="assets/img/Logo.png" alt="" /></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="fa-solid fa-bars text-white fs-3"></i></button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" aria-current="page" href="about.html">Rekap Sumbangan</a></li>
+              <li class="nav-item"><a class="nav-link" aria-current="page" href="blogs.html">Proposal Pembangunan</a></li>
+              <li class="nav-item mt-2 mt-lg-0"><a class="nav-link" aria-current="page" href="#">Log In</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="bg-dark" style="height: 100vh"><img class="img-fluid position-absolute end-0" src="assets/img/hero/hero-bg.png" alt="" />
+
+
+        <!-- ============================================-->
+        <!-- <section> begin ============================-->
+        <section class="d-flex align-items-center" style="min-height: 100vh;">
+            <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-6 d-lg-flex flex-lg-column justify-content-center align-items-stretch pt-2 pt-lg-0 order-2 order-lg-1 text-center" data-aos="fade-up">
+          <div>
+            <h1 class="text-white fs-5 fs-xl-6 text-lg-start">Pembangunan Talud</h1>
+                <p class="text-white py-lg-3 py-2 text-lg-start">Dalam upaya mewujudkan Perum BPS yang aman dan nyaman terbebas dari banjir kami mengajak khususnya semua warga perumahan dan warga sekitar juga seluruh masyarakat untuk membantu kami mewujudkan Pembangunan Talud.</p>
+            <div class="d-sm-flex align-items-center gap-3">
+                  <button class="btn btn-sm btn-success text-black mb-3 w-75">Rekap Sumbangan</button>
+                  <!-- <button class="btn btn-outline-light mb-3 w-75">Download Proposal</button> -->
+                </div>
+            
+            <!-- <a href="#" class="download-btn"><i class="bx bxl-play-store"></i> Google Play</a>
+            <a href="#" class="download-btn"><i class="bx bxl-apple"></i> App Store</a> -->
+          </div>
+        </div>
+        <div class="col-lg-6 d-lg-flex flex-lg-column align-items-stretch order-1 order-lg-2 hero-img" data-aos="fade-up">
+          <div class="">
+                    <div id="slider" class="swiper mySwiper" data-aos="fade-up">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="" class="shadow" style="background-size: cover; background-position: center;">
+                                    <div class="w-100 d-flex align-items-center justify-items-center img-slide"
+                                        style="background-image: url('assets/img/tes_2.jpg'); background-size: cover; background-position: center;">
+                                        <div class="">
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="" class="shadow" style="background-size: cover; background-position: center;">
+                                    <div class="w-100 d-flex align-items-center justify-items-center img-slide"
+                                        style="background-image: url('assets/img/tes.jpg'); background-size: cover; background-position: center;">
+                                        <div class="">
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="" class="shadow" style="background-size: cover; background-position: center;">
+                                    <div class="w-100 d-flex align-items-center justify-items-center img-slide"
+                                        style="background-image: url('assets/img/tes.jpg'); background-size: cover; background-position: center;">
+                                        <div class="">
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="" class="shadow" style="background-size: cover; background-position: center;">
+                                    <div class="w-100 d-flex align-items-center justify-items-center img-slide"
+                                        style="background-image: url('assets/img/tes.jpg'); background-size: cover; background-position: center;">
+                                        <div class="">
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="" class="shadow" style="background-size: cover; background-position: center;">
+                                    <div class="w-100 d-flex align-items-center justify-items-center img-slide"
+                                        style="background-image: url('assets/img/tes.jpg'); background-size: cover; background-position: center;">
+                                        <div class="">
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>   
+                        </div>
+                    </div>      
+                </div>
+        </div>
+      </div>
+    </div>
+            <div class="">
+                
+                <div class="">
+                    <div id="slider" class="swiper mySwiper" data-aos="fade-up">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="" class="shadow" style="background-size: cover; background-position: center;">
+                                    <div class="w-100 d-flex align-items-center justify-items-center"
+                                        style="background-image: url('assets/img/tes.jpg'); aspect-ratio: 16 / 9; background-size: cover; background-position: center;">
+                                        <div class="">
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="" class="shadow" style="background-size: cover; background-position: center;">
+                                    <div class="w-100 d-flex align-items-center justify-items-center"
+                                        style="background-image: url('assets/img/tes.jpg'); aspect-ratio: 16 / 9; background-size: cover; background-position: center;">
+                                        <div class="">
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="" class="shadow" style="background-size: cover; background-position: center;">
+                                    <div class="w-100 d-flex align-items-center justify-items-center"
+                                        style="background-image: url('assets/img/tes.jpg'); aspect-ratio: 16 / 9; background-size: cover; background-position: center;">
+                                        <div class="">
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="" class="shadow" style="background-size: cover; background-position: center;">
+                                    <div class="w-100 d-flex align-items-center justify-items-center"
+                                        style="background-image: url('assets/img/tes.jpg'); aspect-ratio: 16 / 9; background-size: cover; background-position: center;">
+                                        <div class="">
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="" class="shadow" style="background-size: cover; background-position: center;">
+                                    <div class="w-100 d-flex align-items-center justify-items-center"
+                                        style="background-image: url('assets/img/tes.jpg'); aspect-ratio: 16 / 9; background-size: cover; background-position: center;">
+                                        <div class="">
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>   
+                        </div>
+                    </div>      
+                </div>
+            </div>
+          
+            <script>
+              var swiper = new Swiper(".mySwiper", {
+                  direction: 'horizontal',
+                  slidesPerView: "auto",
+                  // cssMode: true,
+                  spaceBetween: 20,
+                  centeredSlides: true,
+                  autoplay: {
+                      delay: 3000,
+                      disableOnInteraction: false,
+                  },
+                  loop: true,
+                  navigation: {
+                      nextEl: ".swiper-button-next",
+                      prevEl: ".swiper-button-prev",
+                  },
+                  pagination: {
+                      el: '.swiper-pagination',
+                      clickable: true,
+                  },
+                  // pagination: {
+                  //     el: ".swiper-pagination",
+                  // },
+                  // scrollbar: {
+                  //     el: '.swiper-scrollbar',
+                  // },
+                  // mousewheel: true,
+                  // keyboard: true,
+              });
+          </script>
+          
+
+        </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
+
+
+      </div>
+
+
+      
+      <section>
+
+        <div class="container">
+          <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+          <!-- <img class="img-fluid" src="assets/img/offer/3.png" alt="" />
+          <div class="row mt-5 align-items-center">
+            <div class="col-md-6">
+              <h2 class="fs-md-4 fs-3 pt-3">We connect our customers with the best, and help them keep up-and stay open.</h2>
+            </div>
+            <div class="col-md-6">
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item"></div>
+                <h2 class="accordion-header border-bottom" id="srgdgfdgdgg45">
+                  <button class="accordion-button collapsed text-black" type="button" data-bs-toggle="collapse" data-bs-target="#srgdgfdgdgg45tyuu" aria-expanded="false" aria-controls="srgdgfdgdgg45"><span class="fs-1 pe-3">We connect our customers with the best?</span></button>
+                </h2>
+                <div class="accordion-collapse collapse" aria-labelledby="srgdgfdgdgg45" data-bs-parent="#accordionFlushExample" id="srgdgfdgdgg45tyuu">
+                  <div class="accordion-body">
+                    <p class="mb-0">Placeholder content for this accordion, which is intended to demonstrate the accordion-flush class. This is the first item's accordion body.</p>
+                  </div>
+                </div>
+                <div class="accordion-item"></div>
+                <h2 class="accordion-header border-bottom" id="sxvdgrfhfh276">
+                  <button class="accordion-button collapsed text-black" type="button" data-bs-toggle="collapse" data-bs-target="#srgdgfdgdgg45tyuu5ghj" aria-expanded="false" aria-controls="sxvdgrfhfh276"><span class="fs-1 pe-3">Android research &amp; development rockstar? </span></button>
+                </h2>
+                <div class="accordion-collapse collapse" aria-labelledby="sxvdgrfhfh276" data-bs-parent="#accordionFlushExample" id="srgdgfdgdgg45tyuu5ghj">
+                  <div class="accordion-body">
+                    <p class="mb-0">Placeholder content for this accordion, which is intended to demonstrate the accordion-flush class. This is the first item's accordion body.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+        <!-- end of .container-->
+
+      </section>
+      <!-- <section> close ============================-->
+      <!-- ============================================-->
+
+
+
+
+
+
+
+    </main>
+    <!-- ===============================================-->
+    <!--    End of Main Content-->
+    <!-- ===============================================-->
+
+
+
+
+    <!-- ============================================-->
+    <!-- <section> begin ============================-->
+    <section>
+
+      <div class="container bg-dark overflow-hidden rounded-1">
+        <div class="bg-holder" style="background-image:url(assets/img/promo/promo-bg.png);">
+        </div>
+        <!--/.bg-holder-->
+
+        <div class="px-5 py-7 position-relative">
+          <h1 class="text-center w-lg-75 mx-auto fs-lg-6 fs-md-4 fs-3 text-white">An enterprise template to ramp up your company website</h1>
+          <div class="row justify-content-center mt-5">
+            <div class="col-auto w-100 w-lg-50">
+              <input class="form-control mb-2 border-light fs-1" type="email" placeholder="Your email address" />
+            </div>
+            <div class="col-auto mt-2 mt-lg-0">
+              <button class="btn btn-success text-dark fs-1">Start now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of .container-->
+
+    </section>
+    <!-- <section> close ============================-->
+    <!-- ============================================-->
+
+
+
+
+    <!-- ============================================-->
+    <!-- <section> begin ============================-->
+    <section class="pt-0">
+
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-6 col-sm-12"><a href="index.html"><img class="img-fluid mt-5 mb-4" src="assets/img/black-logo.png" alt="" /></a>
+            <h4>PAGUYUBAN PERUMAHAN BUMI PROGO SEJAHTERA</h4>
+            <p class="w-lg-75 text-gray">Perumahan Bumi Progo Sejahtera RT 10/05, Karangtengah Kidul, Margosari, Pengasih Kulonprogo, DIY, Kode pos 55652.</p>
+          </div>
+          
+          <div class="col-lg-2 col-sm-4">
+            <h3 class="fw-bold fs-1 mt-5 mb-4">Resources</h3>
+            <ul class="list-unstyled">
+              <li class="mb-3"><a href="#">Home</a></li>
+              <li class="mb-3"><a href="#">Products</a></li>
+              <li class="mb-3"><a href="#">Services</a></li>
+            </ul>
+          </div>
+        </div>
+        <p class="text-gray">All rights reserved.</p>
+      </div>
+      <!-- end of .container-->
+
+    </section>
+    <!-- <section> close ============================-->
+    <!-- ============================================-->
+
+    <script>
+      window.onload = function () {
+
+      var chart = new CanvasJS.Chart("chartContainer", {
+        animationEnabled: true,
+        theme: "light2", // "light1", "light2", "dark1", "dark2"
+        title: {
+          text: "GDP Growth Rate - 2016"
+        },
+        axisY: {
+          title: "Growth Rate (in %)",
+          suffix: "%"
+        },
+        axisX: {
+          title: "Countries"
+        },
+        data: [{
+          type: "column",
+          yValueFormatString: "#,##0.0#"%"",
+          dataPoints: [
+            { label: "India", y: 7.1 }, 
+            { label: "China", y: 6.70 },  
+            { label: "Indonesia", y: 5.00 },
+            { label: "Australia", y: 2.50 },  
+            { label: "Mexico", y: 2.30 },
+            { label: "UK", y: 1.80 },
+            { label: "United States", y: 1.60 },
+            { label: "Japan", y: 1.60 }
+            
+          ]
+        }]
+      });
+      chart.render();
+
+      }
+    </script>
+
+    <script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
+
+    <!-- ===============================================-->
+    <!--    JavaScripts-->
+    <!-- ===============================================-->
+    <script src="vendors/popper/popper.min.js"></script>
+    <script src="vendors/bootstrap/bootstrap.min.js"></script>
+    <script src="vendors/anchorjs/anchor.min.js"></script>
+    <script src="vendors/is/is.min.js"></script>
+    <script src="vendors/fontawesome/all.min.js"></script>
+    <script src="vendors/lodash/lodash.min.js"></script>
+    <!-- <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script> -->
+    <script src="vendors/prism/prism.js"></script>
+    <!-- <script src="vendors/swiper/swiper-bundle.min.js"></script> -->
+    <script src="assets/js/theme.js"></script>
+
+  </body>
+
+</html>
